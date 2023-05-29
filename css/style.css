@@ -36,6 +36,9 @@ h1 {
   color: #e74c3c;
   margin-bottom: 0.5rem;
 }
+.yageo{
+  max-width: 100%;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
