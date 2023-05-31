@@ -123,7 +123,7 @@
         },
         methods: {
           playAudio(index) {
-            this.currentAudio = "/mp3/"+this.locations[index].audioUrl;
+            this.currentAudio = "./mp3/"+this.locations[index].audioUrl;
             this.$refs.autoplay = true;
             this.$refs.muted = true;
             this.$refs.audio.load();
